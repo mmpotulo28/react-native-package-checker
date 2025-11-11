@@ -1,0 +1,27 @@
+# Source files
+*.ts
+!*.d.ts
+
+# Config files
+tsconfig.json
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Build artifacts
+android/build/
+android/.gradle/
+
+# Documentation
+*.md
+!README.md
+
+# Example and test files
+example-*.js
+example-*.tsx
+test-*.sh

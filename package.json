@@ -1,0 +1,45 @@
+{
+  "name": "react-native-package-checker",
+  "version": "1.0.0",
+  "description": "React Native native module to detect installed Android packages with Expo plugin support",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "android",
+    "package-checker",
+    "native-module"
+  ],
+  "author": "ManelisiM",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmpotulo28/react-native-package-checker.git"
+  },
+  "homepage": "https://github.com/mmpotulo28/react-native-package-checker#readme",
+  "bugs": {
+    "url": "https://github.com/mmpotulo28/react-native-package-checker/issues"
+  },
+  "type": "commonjs",
+  "peerDependencies": {
+    "expo": "^52.0.0",
+    "react-native": ">=0.73.0"
+  },
+  "devDependencies": {
+    "@expo/config-plugins": "^54.0.2",
+    "@types/react": "^18.2.0",
+    "@types/react-native": "^0.73.0",
+    "expo": "^52.0.0",
+    "react": "^18.2.0",
+    "react-native": "^0.73.0",
+    "typescript": "^5.9.3"
+  },
+  "expo": {
+    "plugin": "./app.plugin.js"
+  }
+}
